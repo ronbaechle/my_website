@@ -1,0 +1,71 @@
+body {
+  background: #666;
+  color: #EEE;
+}
+
+   header {
+      width: 100%;
+      background-color: #f0f0f0;
+      text-align: center;
+      overflow: hidden; /* hides extra image area if cropped */
+    }
+
+    header img {
+      width: 100%;
+      max-height: 200px; /* limit banner height */
+      object-fit: cover; /* crop rather than squish */
+      display: block;
+    }
+
+  
+
+    h2 {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #9FF3FF;
+}
+
+h1 {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #9FF3FF;
+}
+
+h6 {
+  font: 700 1em "trebuchet ms", serif;
+  color: #f3978b;
+  margin-bottom: 0; /* removes space underneath */
+}
+
+
+ nav {
+      background-color: #333; /* dark background so white text shows well */
+      padding: 8px;
+    }
+
+    nav a {
+      color: white;           /* makes links white */
+      text-decoration: none;  /* removes underlines */
+      margin-right: 10px;     /* small spacing between links */
+    }
+
+    nav a:hover {
+      text-decoration: underline; /* underline when hovered */
+    }
+
+     .green {
+  color: #90EE90; /* light green */
+}
+
+    footer {
+    position: fixed;       /* stays fixed on screen */
+    bottom: 0;             /* stick to bottom edge */
+    left: 0;
+    width: 100%;           /* full width of page */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+ 
+  
+  

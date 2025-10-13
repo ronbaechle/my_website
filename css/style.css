@@ -1,0 +1,182 @@
+body {
+  background: #666;
+  color: #EEE;
+}
+
+   header {
+      width: 100%;
+      background-color: #f0f0f0;
+      text-align: center;
+      overflow: hidden; /* hides extra image area if cropped */
+    }
+
+    header img {
+      width: 100%;
+      max-height: 200px; /* limit banner height */
+      object-fit: cover; /* crop rather than squish */
+      display: block;
+    }
+
+  
+
+    h2 {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #9FF3FF;
+}
+
+.h1-white {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #ffffff;
+}
+
+ h1 {
+  font: 400 1.5em "trebuchet ms", serif;
+  color: #9FF3FF;
+}
+
+h6 {
+  font: 700 1em "trebuchet ms", serif;
+  color: #f3978b;
+  margin-bottom: 0; /* removes space underneath */
+}
+
+
+ nav {
+      background-color: #333; /* dark background so white text shows well */
+      padding: 8px;
+    }
+
+    nav a {
+      color: white;           
+      text-decoration: none;  
+      margin-right: 10px;     
+    }
+
+    nav a:hover {
+      text-decoration: underline; 
+    }
+
+     .green {
+  color: #90EE90; /* light green */
+}
+
+    footer {
+    position: fixed;      
+    bottom: 0;             
+    left: 0;
+    width: 100%;           
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* css for guided-ride.html  -- Used Chatgpt to assist creating a flexbox design for the small div section.  
+  Used several youtube videos to practice the basics of flexbox and comparisons with Grid.
+  */
+
+  /* Guided Rides flex layout */
+.guided-wrap {
+  margin: 20px;
+}
+
+.guided-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  background: #777;              /* panel background */
+  /*border-left: 12px solid #555;  /* darker left stripe */
+  padding: 18px 20px;
+  border-radius: 2px;
+}
+
+/* Paragraph rhythm inside the panel */
+.guided-text p {
+  margin: 0 0 14px 0;
+}
+
+/* Right-side image box */
+.guided-figure {
+  margin: 0;
+  flex: 0 0 220px;               /* fixed visual width for the box */
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  padding: 10px;
+  text-align: center;
+}
+
+.guided-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.guided-figure figcaption {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/*Chatgpt generated */
+/* Responsive: stack on small screens, image on top centered */
+@media (max-width: 700px) {
+  .guided-flex {
+    flex-direction: column;
+  }
+  .guided-figure {
+    align-self: center;
+    width: 60%;
+    max-width: 260px;
+  }
+}
+
+
+/*images responsive sizing */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-half {
+  width: 50%;
+}
+
+/* Wrap text around images*/
+.float-right {
+  float: right;
+  width: 200px;          
+  max-width: 40%;        
+  margin: 0 0 10px 14px; 
+}
+
+/* Wrap text around images to the left */
+.float-left {
+  float: left;
+  width: 200px;
+  max-width: 40%;
+  margin: 0 14px 10px 0;
+}
+
+/* class for specific image resize */
+.large-img {
+  width: 350px;
+  max-width: 60%;
+}
+
+
+/* FAQ css */
+.answer {
+  display: none;       /* Hide answers by default */
+  margin-left: 1em;
+  color: #444;
+}
+
+.question {
+  cursor: pointer;
+  color: #0077cc;
+}

@@ -1,0 +1,12 @@
+10/8/2025
+Thank you for the feedback and recomended corrections
+
+-Create additional folders for css, images, and javascript files
+use relative links in html page to these sources
+
+-Add additional symantic elements for SEO and readability
+Move nav element inside header
+
+10/8/2025 1300
+Assignment 2
+Add 2 pages.  Use Flexbox for responsive webpage.  Consult with chatgpt and youtube how to use

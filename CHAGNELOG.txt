@@ -10,3 +10,6 @@ Move nav element inside header
 10/8/2025 1300
 Assignment 2
 Add 2 pages.  Use Flexbox for responsive webpage.  Consult with chatgpt and youtube how to use
+
+10/13
+new brach3 test
